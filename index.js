@@ -26,7 +26,7 @@ app.use(express.json())
 app.use("/images", express.static(path.join(__dirname, "/images")))
 app.use(
   cors({
-    origin: "https://golden-florentine-c87f4e.netlify.app",
+    origin: "https://techiees.netlify.app/",
     credentials: true,
   })
 )
